@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;900&family=Oswald:wght@500&family=Quicksand:wght@700&family=Raleway:wght@400;900&family=Secular+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container-type{
+    display: inline-block;
+    margin: auto;
+  }
+
+
+.webname {
+    font-family: 'Secular One';
+    font-size: 45px;
+    text-align: center;
+    height: 55px;
+    margin-top: 45%;
+
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blinking 1.0s infinite;
+
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+
+  }
+
+  @keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}
+
+
+.loginText{
+    font-family: 'Secular One';
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.signupText{
+    font-family: 'Secular One';
+    margin-top: 25%;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+.tagline{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+
+.loginButton{
+    margin-left: 150px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 30px;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.loginButton1{
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.backarrow{
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgb(255, 220, 122);
+    border-radius: 100%;
+}
+
+
+.signUpButton{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color:black;
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signUpButton1{
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.background1{
+    background-image: url(../images/cover2.png);
+    background-size: auto;
+    background-position-x: 47%;
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+}
+
+.background2{
+    background-image: url(../images/cover4.png);
+    background-size: auto;
+    background-position-x: 60%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.userInput{
+    width: 91%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.haveAcc{
+    margin-top: 60%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: white;
+    
+}
+.haveAcc1{
+    margin-top: 80%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: white;
+    
+}
+.invalid-feedback{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    font-style: italic;
+    
+}
+
+.section-one{
+    width: 300px;
+    text-align: center; 
+    margin: auto;
+
+}
+
+
+.section-two{
+    width: 200px;
+    text-align: center; 
+    margin: auto
+}
+
+.section-three{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+

@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topNav {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs {
+    margin: 3%;
+}
+
+.cellphone {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}

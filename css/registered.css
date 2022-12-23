@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;900&family=Oswald:wght@500&family=Quicksand:wght@700&family=Raleway:wght@400;900&family=Secular+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.messageTitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.topContainer{
+    display: flex;
+    width: auto;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.webName1{
+    font-family: 'Secular One';
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+}
+
+.logoutButton{
+    position: absolute;
+    right: 5%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 28px;
+    padding: 7px;
+    height: 20px;
+}
+
+.logoutButton1{
+    position: absolute;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20px;
+}
+
+
+.buttonHoleder{
+    display: flex;
+    flex-direction: start;
+}
+
+.addButton{
+    display: flex;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 58px;
+    padding: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    height: auto;
+    width: 35px;
+}
+
+.addButton:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transform: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.sentButton{
+    display: flex;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 58px;
+    padding: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    height: auto;
+    width: 35px;
+}
+
+
+.sentButton:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transform: 0.5s;
+    transition-duration: 0.5s;
+}
+
+a.plus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.msgContainer{
+    height: 500px;
+    width: auto;
+    max-width: 700px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    margin: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}   
+
+.msgSender {
+    height: 300px;
+    width: auto;
+    background-image: url(../images/paper.jpg);
+    padding-top: 100px;
+    text-align: center;
+    background-position-x: 25%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.headMsg{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.messageBox {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 3%;
+    border-radius: 20px;
+}
+
+
+.showDate{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.showUsername{
+    margin-left: 25%;
+    font-family: 'Secular One';
+    margin-top: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+}
+
+.insertUsername{
+    width: 60%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background: 0.0;
+    border: none;
+}
+.insertMessage{
+    margin-left: 10%;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    font-size: 20px;
+    width: 70%;
+    height: 150px;
+    padding: 20px;
+    background: 0.0;
+    border: none;
+}
+
+.usernameBar{
+    margin-top: -5px;
+    font-family: 'Montserrat';
+    text-align: left;
+    margin-left: 20%;
+    font-size: 20px;
+    margin-bottom: -42px;
+    
+}
+
+.messageBar{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    
+}
+
+.targetUser{
+    width: auto;
+}
+
+.sendButton{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    background-color: rgb(255, 220, 122);
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    border:none;
+}
+
+.clearButton{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    border:none;
+}
+
+.body{
+    background-color: rgb(255, 220, 122);
+}
+
+.backButton{
+    position: absolute;
+    right: 8%;
+    background-color: rgb(252, 96, 96);
+    border-radius: 58px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: -90px;
+}
+
+.backButton:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+    transform: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.section-four{
+    width: auto;
+}
