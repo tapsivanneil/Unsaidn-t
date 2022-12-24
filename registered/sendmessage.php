@@ -69,19 +69,13 @@
                     $ires = mysqli_query($connection, $sendMessage1) or die(mysqli_error($connection));
     
                 }
-
-
                
             ?>
-
- 
-
-
-       
-
-
-
     </div>
+    
+            <?php 
+                require('navigation.php');
+            ?>
 
 </body>
 </html>
