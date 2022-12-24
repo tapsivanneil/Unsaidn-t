@@ -62,7 +62,7 @@
                     $targetUser = $_POST['targetUser'];
                     $messages = mysqli_real_escape_string($connection, $_POST['message']);
              
-                    //$sendMessage = "INSERT INTO $targetUser (username, messages) VALUES ('$username', '$messages')";
+                    $sendMessage = "INSERT INTO $targetUser (username, messages) VALUES ('$username', '$messages')";
                     $sendMessage1 = "INSERT INTO usersMessages (username, messages) VALUES ('$username', '$messages')";
  
                     $ires = mysqli_query($connection, $sendMessage) or die(mysqli_error($connection));
