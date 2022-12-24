@@ -25,6 +25,10 @@
                      <div class="showDate"> <?php echo $r['created_at']; ?></div>      
                  </div>
                  </section>
-         <?php } ?>
+         <?php } 
+         
+         require('navigation.php');
+         
+         ?>
 </body>
 </html>
