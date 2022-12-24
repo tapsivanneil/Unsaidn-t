@@ -47,6 +47,7 @@
                     </div>
                     <button type="submit" class="sendButton">Send</button>
                     <input type="reset" class="clearButton" value="Clear">
+                    <button type="hidden" class="sendButton" name="draft">Draft</button>
                     </form>
                     
                     <!-- <a  href="index.php"><img src="../images/backarrowblk.png"  class="backButton" ></a> -->
@@ -56,8 +57,14 @@
                    
 
             <?php 
+                if(isset($_POST['draft'])){
+                    $messages = mysqli_real_escape_string($connection, $_POST['message']);
 
-                if(isset($_POST['targetUser'])){
+                    $draftMessage= "INSERT INTO `draftmessages`(`username`, `messages`) VALUES ('$username', '$messages')";
+                    $ires = mysqli_query($connection, $draftMessage) or die(mysqli_error($connection));	
+                }
+
+                else if(isset($_POST['targetUser'])){
 
                     $targetUser = $_POST['targetUser'];
                     $messages = mysqli_real_escape_string($connection, $_POST['message']);
@@ -71,6 +78,8 @@
                 }
                     require('navigation.php');
             ?>
+        
+            
     </div>
 
 

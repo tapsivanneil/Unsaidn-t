@@ -12,7 +12,7 @@
         <a href="index.php" class="navButton">Home</a>
         <a href="sentMessages.php" class="navButton">Sent</a>
         <a href="sendMessage.php" class="navButton">+</a>
-        <a href=# class="navButton">Draft</a>
+        <a href="draftMessages.php" class="navButton">Draft</a>
         <a href=# class="navButton">About</a>
     </div>
 </body>
