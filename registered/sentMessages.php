@@ -16,7 +16,7 @@
     </div>
 
     <div>
-        <h1 class="messageTitle"> Drafts</h1> 
+        <h1 class="messageTitle">Sent Messages</h1> 
     </div>
 <div class="msgContainer">
     <?php
