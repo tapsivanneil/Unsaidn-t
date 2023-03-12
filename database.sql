@@ -6,6 +6,12 @@ CREATE TABLE usersMessages(
     
 );
 
+CREATE TABLE users(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(250) NOT NULL,
+
+);
 
 
 INSERT INTO usersmessages (username, messages) 
